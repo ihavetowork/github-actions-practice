@@ -11,4 +11,4 @@ WORKDIR ./myapp
 
 CMD gunicorn main:app --bind 0.0.0.0:8001
 
-EXPOST 8001
+EXPOSE 8001
